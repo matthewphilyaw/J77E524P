@@ -16,7 +16,7 @@ call 0 1
 imul
 ret
 
-iconst 5
+iconst 10 
 call 0 1
 print
 halt
