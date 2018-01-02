@@ -270,11 +270,7 @@ namespace J77E524P
                 for (int i = ip + 1; i <= ip + oc.NumArgs; i++)
                 {
                     args.Append(code[i]);
-                    // Add comma if not last arg
-                    if ((i + 1) < ip + oc.NumArgs)
-                    {
-                        sb.Append(", ");
-                    }
+                    args.Append(" ");
                 }
             }
             sb.Append($"{args.ToString(), -20}");
