@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace J77E524P
 {
-    public static class Assembler
+    public static class AssemblerParser
     {
         private class Instruction
         {
